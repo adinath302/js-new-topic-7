@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript arrow function</title>
+</head>
+
+<body>
+    <script>
+        const sayhello = name => {
+            console.log("greetings" + " " + name);
+            console.log("hi");
+        }
+        const x = {
+            name: "harry",
+            role: "software Devloper",
+            exp: 30,
+            show: function () {
+                // let that = this
+                // console.log(this);
+                setTimeout(() => {
+                    console.log(`the name is ${this.name}\n the role is ${role}`);
+                }, 2000);
+            }
+        }
+        sayhello("harry", "good afternoon")
+        // console.log(x.name,x.exp);
+        // x.show()
+    </script>
+</body>
+
+</html>
